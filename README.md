@@ -1,4 +1,4 @@
-<a href="https://github.com/spaneco/vue-hot-toast/"><img alt="vue-hot-toast - Try it out" src="https://github.com/spaneco/vue-hot-toast/raw/main/assets/header.svg"/></a>
+<a href="https://github.com/spaneco/vue-hot-toast/"><img alt="vue-hot-toast - Try it out" src="https://raw.githubusercontent.com/spaneco/vue-hot-toast/prod/assets/header.svg"/></a>
 
 <div align="center">
     <img src="https://img.shields.io/npm/v/@spaneco/vue-hot-toast" alt="NPM Version" />
