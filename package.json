@@ -1,10 +1,10 @@
 {
-  "name": "vue-hot-toast",
+  "name": "@spaneco/vue-hot-toast",
   "description": "Smoking hot Vue 3 Notifications. Lightweight, customizable and beautiful by default.",
   "version": "0.0.1",
   "author": "Jiri Laza",
   "license": "MIT",
-  "repository": "spaneco/vue-hot-toast",
+  "repository": "github:spaneco/vue-hot-toast",
   "keywords": [
     "vue",
     "notifications",
@@ -13,15 +13,16 @@
   ],
   "type": "module",
   "main": "./dist/vue-hot-toast.umd.js",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/vue-hot-toast.d.ts",
   "module": "./dist/vue-hot-toast.es.js",
   "exports": {
+    "./package.json": "./package.json",
     ".": {
       "types": "./dist/vue-hot-toast.d.ts",
       "import": "./dist/vue-hot-toast.es.js",
       "require": "./dist/vue-hot-toast.umd.js"
     },
-    "./dist/styles.css": "./dist/vue-hot-toast.css"
+    "./styles.css": "./dist/vue-hot-toast.css"
   },
   "files": [
     "dist"

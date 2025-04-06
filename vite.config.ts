@@ -14,7 +14,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'vue-hot-toast',
-      fileName: (format) => `vue-hot-toast-${format}.js`
+      fileName: (format) => `vue-hot-toast.${format}.js`
     },
     rollupOptions: {
       external: ['vue'],
