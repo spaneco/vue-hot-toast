@@ -1,0 +1,50 @@
+{
+  "name": "vue-hot-toast",
+  "description": "Smoking hot Vue 3 Notifications. Lightweight, customizable and beautiful by default.",
+  "version": "0.0.1",
+  "author": "Jiri Laza",
+  "license": "MIT",
+  "repository": "spaneco/vue-hot-toast",
+  "keywords": [
+    "vue",
+    "notifications",
+    "toast",
+    "snackbar"
+  ],
+  "type": "module",
+  "main": "./dist/vue-hot-toast.umd.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/vue-hot-toast.es.js",
+  "exports": {
+    ".": {
+      "types": "./dist/vue-hot-toast.d.ts",
+      "import": "./dist/vue-hot-toast.es.js",
+      "require": "./dist/vue-hot-toast.umd.js"
+    },
+    "./dist/styles.css": "./dist/vue-hot-toast.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "setup": "npm i"
+  },
+  "dependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-plugin-dts": "^4.5.3",
+    "vue-tsc": "^2.2.4"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
+}
